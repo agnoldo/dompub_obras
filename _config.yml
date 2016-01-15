@@ -1,16 +1,16 @@
 # Site settings
-title: HS Hackers NYC
-location: New York City
-description: "Welcome to the High School Hackers NYC meetup group!"
+title: Domínio Público
+location: Brazil
+description: "Bem vindo ao projeto Domínio Público!"
 baseurl: ""
-url: "http://nyc.hshackers.org"
+url: "http://agnoldo.github.io/nyc"
 
 # More settings
 accent: "#E74C3C"
-twitter: "hshackersnyc"
-github: "hshackers/nyc"
-contact: "hello at victorlourng dot com"
-organizers: "John Mormon and Jon Moss"
+twitter: "dompub"
+github: "agnoldo/nyc"
+contact: "agnoldo at gmail dot com"
+organizers: "Arnaldo Gomes"
 
 # Get Meetup Notifications, visible or hidden
 notifications: "visible"
