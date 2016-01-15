@@ -1,6 +1,6 @@
 prose:
   rooturl: '_posts'
-  siteurl: 'http://nyc.hshackers.org/'
+  siteurl: 'http://agnoldo.github.io/nyc/'
   media: 'media'
   ignore:
     - index.html
