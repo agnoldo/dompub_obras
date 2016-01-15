@@ -1,3 +1,15 @@
+---
+categories: blog
+layout: blog
+title: Progresso do projeto Domínio Público
+subtitle: "Progresso em 15/01/2016"
+permalink: "/2016-01-15-progesso-do-projeto-dominio-publico/"
+author: Arnaldo Gomes
+author-link: "http://www.agnoldo.com/"
+background: "rgb(119, 40, 23)"
+published: true
+---
+
 ## 15/01/2016 - Progresso do projeto Domínio Público
 
 O projeto Domínio Público pretende implementar aplicativos para leitura de ebooks em domínio público nas plataformas Android e Windows Phone e, desta forma, proporcionar a um grande contingente de usuários o livre acesso a cultura e conteúdo de qualidade e valor histórico.
