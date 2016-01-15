@@ -4,6 +4,7 @@ location: Brazil
 description: "Bem vindo ao projeto Domínio Público!"
 baseurl: ""
 url: "http://agnoldo.github.io/nyc/"
+lang: pt-BR
 
 # More settings
 accent: "#E74C3C"
