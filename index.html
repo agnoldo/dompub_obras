@@ -1,12 +1,12 @@
 ---
 layout: default
-background: "url(http://i.imgur.com/oPGTBiS.jpg) #03A9F4"
+background: "url(https://i.imgur.com/ZNgmNku.jpg) #03A9F4"
 ---
 
 <header>
   <div class="c">
-    <h1>This is High School Hackers.</h1>
-    <p class="lead">We create, build, and innovate.</p>
+    <h1>Domínio Público INOVApps</h1>
+    <p class="lead">Cultura e conhecimento, livre, legal.</p>
   </div>
 </header>
 
@@ -14,7 +14,23 @@ background: "url(http://i.imgur.com/oPGTBiS.jpg) #03A9F4"
 </div>
 
 <section class="home">
-  <div class="c">      
+  <div class="c">
+      <h2>Notícias</h2>
+      <div class="blog">
+        {% for post in site.categories.blog %}
+          <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
+            <div class="preview" style="background:{{ post.background }}">
+              <div class="date">
+                  <small>{{ post.date | date: "%B" }}</small>
+                  {{ post.date | date: "%-d" }}
+              </div>
+            </div>
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.summary }}</p>
+          </a>
+          <br>
+        {% endfor %}
+      </div>
 
       <h2>Upcoming Meetups</h2>
       <div class="meetups">
@@ -58,23 +74,6 @@ background: "url(http://i.imgur.com/oPGTBiS.jpg) #03A9F4"
               {% endif %}
             {% endfor %}
           </div>
-  
-        <!-- <h2>From the Blog</h2>
-        <div class="blog">
-            {% for post in site.categories.blog %}
-              <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
-                <div class="preview" style="background:{{ post.background }}">
-                  <div class="date">
-                      <small>{{ post.date | date: "%B" }}</small>
-                      {{ post.date | date: "%-d" }}
-                  </div>
-                </div>
-                <h3>{{ post.title }}</h3>
-                <p>{{ post.summary }}</p>
-              </a>
-              <br>
-            {% endfor %}
-          </div> -->
 
   </div>
 </section>
