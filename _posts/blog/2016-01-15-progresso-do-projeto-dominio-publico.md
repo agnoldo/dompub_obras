@@ -3,7 +3,7 @@ categories: blog
 layout: blog
 title: Progresso do projeto Domínio Público
 subtitle: "Progresso em 15/01/2016"
-permalink: "/2016-01-15-progesso-do-projeto-dominio-publico/"
+permalink: "/2016-01-15-progresso-do-projeto-dominio-publico/"
 author: Arnaldo Gomes
 author-link: "http://www.agnoldo.com/"
 background: "rgb(119, 40, 23)"
