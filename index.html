@@ -21,7 +21,23 @@ background: "url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Books
           <a class="post-link white-box" href="{{ post.url | prepend: site.baseurl }}">
             <div class="preview" style="background:{{ post.background }}">
               <div class="date">
-                  <small>{{ post.date | date: "%B" }}</small>
+                  <small>
+                    {% assign m = post.date | date: "%-m" %}
+                    {% case m %}
+                      {% when '1' %}Janeiro
+                      {% when '2' %}Fevereiro
+                      {% when '3' %}Mar&ccedil;o
+                      {% when '4' %}Abril
+                      {% when '5' %}Maio
+                      {% when '6' %}Junho
+                      {% when '7' %}Julho
+                      {% when '8' %}Agosto
+                      {% when '9' %}Setembro
+                      {% when '10' %}Outubro
+                      {% when '11' %}Novembro
+                      {% when '12' %}Dezembro
+                    {% endcase %}
+                  </small>
                   {{ post.date | date: "%-d" }}
               </div>
             </div>
