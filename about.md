@@ -17,7 +17,8 @@ O site {{ site.title }} atende inicialmente a livros e outros tipos de mídia di
 
 ## Contato
 
-- Comunicação: [comunicacao@dominiopublico.xyz](mailto:comunicacao@dominiopublico.xyz)
+- Geral: [contato@dominiopublico.xyz](mailto:contato@dominiopublico.xyz)
+- Imprensa: [imprensa@dominiopublico.xyz](mailto:imprensa@dominiopublico.xyz)
 - Organizador do projeto: Arnaldo Gomes ([agnoldo@gmail.com](mailto:agnoldo@gmail.com))
 
 ## Contribuições
