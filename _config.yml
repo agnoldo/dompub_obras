@@ -2,14 +2,14 @@
 title: Domínio Público
 location: Brasil
 description: "Bem vindo ao projeto Domínio Público!"
-baseurl: "https://agnoldo.github.io/nyc/"
-url: "https://agnoldo.github.io/nyc/"
+baseurl: "https://agnoldo.github.io/dompub/"
+url: "https://agnoldo.github.io/dompub/"
 lang: pt-BR
 
 # More settings
 accent: "#E74C3C"
 twitter: "dompub"
-github: "agnoldo/nyc"
+github: "agnoldo/dompub"
 contact: "agnoldo at gmail dot com"
 organizers: "Arnaldo Gomes"
 
