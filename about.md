@@ -1,36 +1,33 @@
 ---
 layout: "page"
-title: "About"
-caption: "Learn more"
-subtitle: "For high school students, by high school students."
+title: "Sobre"
+caption: "Conheça o projeto"
+subtitle: "Por leitores, para leitores."
 icon: "user"
 background: "#60D317"
 permalink: "/about/"
 navigation: "visible"
 ---
 
-## Organizers
+## Sobre o projeto
 
-{{ site.title }} is one of many [regional branches](http://locations.hshackers.org/) of the High School Hackers meetup group across the country.
+{{ site.title }} é um projeto premiado pela edição 2015 do [Concurso INOVApps](http://www.mc.gov.br/concurso-inovapps/) realizado pelo Ministério das Comunicações. Seu principal objetivo é levar, de forma simples e gratuita, livros em domínio público a usuários que possuam _smartphones_ e _tablets_ em plataformas como _Android_ ou _Windows Phone_.
 
-The {{ site.title }} local meetup group in {{ site.location }} is run by {{ site.organizers }}.
+O site {{ site.title }} atende inicialmente a livros e outros tipos de mídia digital em domínio público no Brasil.
 
-## Press Contact
+## Contato
 
-{{ site.contact }}
+- Comunicação: [comunicacao@dominiopublico.xyz](mailto:comunicacao@dominiopublico.xyz)
+- Organizador do projeto: Arnaldo Gomes ([agnoldo@gmail.com](mailto:agnoldo@gmail.com))
 
-## Contribute
+## Contribuições
 
-Take a look at the [readme.md](https://github.com/{{ site.github }}/blob/gh-pages/readme.md) file on GitHub.
+Existem muitas formas de colaborar com o projeto:
 
-## Code of Conduct
+- **Resenhas sobre livros**: caso você queira publicar resenha sobre algum livro na seção Resenhas deste site, favor enviar texto para o endereço citado na seção Contato acima. É possível que futuramente a equipe do projeto desenvolva um processo mais formal e automatizado de submissão, revisão e publicação de resenhas mas isto depende de recursos como tempo e voluntários interessados em desempenhar os papéis citados;
+- **Correções de erros**: caso você identifique algum erro em material publicado neste site (alguns exemplos: dados incorretos sobre autoria, material erroneamente disponibilizado em domínio público), favor enviar mensagem para o endereço [erros@dominiopublico.xyz](mailto:erros@dominiopublico.xyz)
+- **Doações**: em algum momento futuro a equipe do projeto irá estabelecer formas públicas, auditáveis e confiáveis para viabilizar doações financeiras ao projeto, que requer algum recursos financeiros para manutenção de servidores e outros aspectos de infraestrutura digital online.
 
-Hackers are a heterogeneous group of people. Our diversity in gender, sexual orientation, physical or mental ability, age, socioeconomic status, ethnicity, physical appearance, race, religion, and so on, fuels our creativity and enables us to approach solving problems from a variety of angles. In that spirit, HS Hackers and the meetup organizers who compose its advisory board have come up with this simple Code of Conduct that will hold ourselves and the people who attend our events accountable to.
+## Regras de Conduta
 
-While you’re at an event, do your best to respect the diversity of our community and be mindful of the fact that certain content and actions can make the people around you uncomfortable. If your project contains material that might cross that boundary, you should tell one of the event organizers about it before your present your project.
-
-If you see anything that makes you uncomfortable or that you believe is making other attendees uncomfortable, you should disclose that to the event organizers in a responsible manner. The event organizers will do their best to evaluate the situation and determine what the appropriate response (if any) should be.
-
-Ultimately, the event organizers reserve the right to determine what content and actions are appropriate for their meetups and which projects are allowed to be presented there.
-
-Adopted from Major League Hacking. 
+...
