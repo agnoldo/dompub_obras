@@ -1,0 +1,27 @@
+---
+layout: page
+title: Resenhas
+caption: Analisando Clássicos
+subtitle: Convidados analisam livros e outras obras disponibilizadas pelo site
+icon: lecture
+background: "#F15823"
+permalink: /reviews/
+navigation: visible
+---
+      <h2>Resenhas</h2>
+      <div class="review">
+        {% for review in site.categories.review %}
+          <a class="post-link white-box" href="{{ review.url | prepend: site.baseurl }}">
+            <div class="preview" style="background:{{ review.background }}">
+              <div class="date">
+                  <small>{{ review.date | date: "%B" }}</small>
+                  {{ review.date | date: "%-d" }}
+              </div>
+            </div>
+            <h3>{{ review.title }}</h3>
+            <p>{{ review.summary }}</p>
+          </a>
+          <br>
+        {% endfor %}
+      </div>
+      <p>For the debugging purposes, this site was last built at {{ site.time | date: '%s' }} UNIX time.</p>
