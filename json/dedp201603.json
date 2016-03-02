@@ -1,0 +1,114 @@
+[
+{
+  "co_tipodestaque":1,
+  "titulo":"Autores em Destaque",
+  "ordem":1,
+  "excluido":false,
+  "destaques_by_co_tipodestaque":[
+    {
+      "co_destaque":1,
+      "co_tipodestaque":1,
+      "titulo":"Machado de Assis: Obra Completa",
+      "texto":"Joaquim Maria Machado de Assis (Rio de Janeiro, 21 de junho de 1839 — Rio de Janeiro, 29 de setembro de 1908) foi um escritor brasileiro, amplamente considerado como o maior nome da literatura nacional. Escreveu em praticamente todos os gêneros literários, sendo poeta, romancista, cronista, dramaturgo, contista, folhetinista, jornalista, e crítico literário. Testemunhou a mudança política no país quando a República substituiu o Império e foi um grande comentador e relator dos eventos político-sociais de sua época.\r\n\r\nNascido no Morro do Livramento, Rio de Janeiro, de uma família pobre, mal estudou em escolas públicas e nunca frequentou universidade. Os biógrafos notam que, interessado pela boemia e pela corte, lutou para subir socialmente abastecendo-se de superioridade intelectual. Para isso, assumiu diversos cargos públicos, passando pelo Ministério da Agricultura, do Comércio e das Obras Públicas, e conseguindo precoce notoriedade em jornais onde publicava suas primeiras poesias e crônicas. Em sua maturidade, reunido a colegas próximos, fundou e foi o primeiro presidente unânime da Academia Brasileira de Letras.\r\n\r\nSua extensa obra constitui-se de nove romances e peças teatrais, duzentos contos, cinco coletâneas de poemas e sonetos, e mais de seiscentas crônicas. Machado de Assis é considerado o introdutor do Realismo no Brasil, com a publicação de Memórias Póstumas de Brás Cubas (1881). Este romance é posto ao lado de todas suas produções posteriores, Quincas Borba, Dom Casmurro, Esaú e Jacó e Memorial de Aires, ortodoxamente conhecidas como pertencentes a sua segunda fase, em que se notam traços de pessimismo e ironia, embora não haja rompimento de resíduos românticos. Dessa fase, os críticos destacam que suas melhores obras são as da Trilogia Realista.1 Sua primeira fase literária é constituída de obras como Ressurreição, A Mão e a Luva, Helena e Iaiá Garcia, onde notam-se características herdadas do Romantismo, ou \"convencionalismo\", como prefere a crítica moderna.\r\n\r\nSua obra foi de fundamental importância para as escolas literárias brasileiras do século XIX e do século XX e surge nos dias de hoje como de grande interesse acadêmico e público. Influenciou grandes nomes das letras, como Olavo Bilac, Lima Barreto, Drummond de Andrade, John Barth, Donald Barthelme e outros. Em seu tempo de vida, alcançou relativa fama e prestígio pelo Brasil, contudo não desfrutou de popularidade exterior na época. Hoje em dia, por sua inovação e audácia em temas precoces, é frequentemente visto como o escritor brasileiro de produção sem precedentes, de modo que, recentemente, seu nome e sua obra têm alcançado diversos críticos, estudiosos e admiradores do mundo inteiro. Machado de Assis é considerado um dos grandes gênios da história da literatura, ao lado de autores como Dante, Shakespeare e Camões.\r\n\r\nFonte: Wikipedia",
+      "imagem":"Machado-450.jpg",
+      "url_imagem":"https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/Machado-450.jpg"
+    },
+    {
+      "co_destaque":2,
+      "co_tipodestaque":1,
+      "titulo":"Olavo Bilac",
+      "texto":"Olavo Brás Martins dos Guimarães Bilac (Rio de Janeiro, 16 de dezembro de 1865 — 28 de dezembro de 1918) foi um jornalista e poeta brasileiro, membro fundador da Academia Brasileira de Letras. Criou a cadeira 15 da instituição, cujo patrono é Gonçalves Dias.\r\n\r\nConhecido por sua atenção à literatura infantil e, principalmente, pela participação cívica, Bilac era um ativo republicano e nacionalista, também defensor do serviço militar obrigatório1 em um período em que o exército usufruía de amplas faculdades políticas em virtude do golpe militar de 1889. O poeta foi o responsável pela criação da letra do Hino à Bandeira, inicialmente criado para circulação na capital federal da época (o Rio de Janeiro), e mais tarde sendo adotado em todo o Brasil. Também ficou famoso pelas fortes convicções políticas, sobressaindo-se a ferrenha oposição ao governo militar do marechal Floriano Peixoto. Em 1907 foi eleito \"príncipe dos poetas brasileiros\", pela revista Fon-Fon. Bilac, autor de alguns dos mais populares poemas brasileiros, é considerado o mais importante de nossos poetas parnasianos.\r\n\r\nFonte: Wikipedia",
+      "imagem":"Olavobil.jpg",
+      "url_imagem":"https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/Olavobil.jpg"
+    },
+    {
+      "co_destaque":4,
+      "co_tipodestaque":1,
+      "titulo":"Lima Barreto",
+      "texto":"Afonso Henriques de Lima Barreto nasceu no Rio de Janeiro, em 01 de março de 1881. Melhor conhecido como Lima Barreto, foi um jornalista e um dos mais importantes escritores libertários brasileiros.\r\n\r\nEra filho de João Henriques de Lima Barreto era negro nascido de escravos e de Amália Augusta era filha de escravos agregada da família Pereira Carvalho. O seu pai foi tipógrafo. Aprendeu a profissão no Imperial Instituto Artístico, que imprimia o periódico \"A Semana Ilustrada\". A sua mãe foi educada com esmero, sendo professora da 1ª à 4ª séries. Ela faleceu quando ele tinha apenas 6 anos e João Henriques trabalhou muito para sustentar os quatro filhos do casal. João Henriques era monarquista, ligado ao visconde de Ouro Preto, padrinho do futuro escritor. Talvez as lembranças saudosistas do fim do período imperial no Brasil, bem como as remotas lembranças da Abolição da Escravatura na infância tenham vindo a exercer influência sobre a visão crítica de Lima Barreto sobre o regime republicano. Faleceu aos 41 anos. Foi sepultado no Cemitério de São João Batista no Rio de Janeiro.\r\n\r\nFonte: Wikipedia",
+      "imagem":"LimaBarreto.jpg",
+      "url_imagem":"https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/LimaBarreto.jpg"
+    }
+  ]
+},
+{
+  "co_tipodestaque":2,
+  "titulo":"Obras mais Acessadas na Semana",
+  "ordem":2,
+  "excluido":false,
+  "destaques_by_co_tipodestaque":[
+    {
+      "co_destaque":5,
+      "co_tipodestaque":2,
+      "titulo":"Literatura: as 3 mais",
+      "texto":"As três obras a seguir são as mais acessadas na categoria Literatura:",
+      "imagem":"Fragonard%2C_The_Reader.jpg",
+      "url_imagem":"https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/Fragonard%2C_The_Reader.jpg"
+    },
+    {
+      "co_destaque":6,
+      "co_tipodestaque":2,
+      "titulo":"Administração: as 3 mais",
+      "texto":"As três obras a seguir são as mais acessadas na categoria Administração:",
+      "imagem":"300px-SWOT_pt.svg.png",
+      "url_imagem":"https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/300px-SWOT_pt.svg.png"
+    }
+  ]
+},
+{
+  "co_tipodestaque":3,
+  "titulo":"Canais de Vídeo",
+  "ordem":3,
+  "excluido":false,
+  "destaques_by_co_tipodestaque":[
+    {
+      "co_destaque":7,
+      "co_tipodestaque":3,
+      "titulo":"TV Escola",
+      "texto":"Confira alguns vídeos desta ótima iniciativa do MEC.",
+      "imagem":"Tvescolalogo2014.jpg",
+      "url_imagem":"https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/Tvescolalogo2014.jpg"
+    },
+    {
+      "co_destaque":8,
+      "co_tipodestaque":3,
+      "titulo":"Conferência FUNAG",
+      "texto":"Confira alguns vídeos da conferência FUNAG recém-realizada.",
+      "imagem":"funag-grande.png",
+      "url_imagem":"https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/funag-grande.png"
+    }
+  ]
+},
+{
+  "co_tipodestaque":4,
+  "titulo":"Coletâneas de Arquivos de Som",
+  "ordem":4,
+  "excluido":false,
+  "destaques_by_co_tipodestaque":[
+    {
+      "co_destaque":9,
+      "co_tipodestaque":4,
+      "titulo":"Você conhece Beethoven? Mesmo?",
+      "texto":"Beethoven é muito mais do que a sua Nona Sinfonia. Confira nesta lista...",
+      "imagem":"Beethoven.jpg",
+      "url_imagem":"https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/Beethoven.jpg"
+    },
+    {
+      "co_destaque":10,
+      "co_tipodestaque":4,
+      "titulo":"Que tal Richard Wagner?",
+      "texto":"Este grande compositor alemão do século XIX merece sua atenção!",
+      "imagem":"220px-RichardWagner.jpg",
+      "url_imagem":"https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/220px-RichardWagner.jpg"
+    },
+    {
+      "co_destaque":11,
+      "co_tipodestaque":4,
+      "titulo":"Mozart Essencial",
+      "texto":"Provavelmente o mais famoso compositor de música clássica de todos os tempos, Wolfgang Amadeus Mozart tem obras de grande sofisticação...",
+      "imagem":"250px-Wolfgang-amadeus-mozart_1.jpg",
+      "url_imagem":"https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/250px-Wolfgang-amadeus-mozart_1.jpg"
+    }
+  ]
+}
+]
