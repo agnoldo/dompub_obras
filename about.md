@@ -1,7 +1,7 @@
 ---
 layout: "page"
 title: "Sobre"
-caption: "Conheça o projeto"
+caption: "O Projeto"
 subtitle: "Por leitores, para leitores."
 icon: "user"
 background: "#60D317"
