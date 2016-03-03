@@ -1,0 +1,145 @@
+{
+  "_id":"midia_categorias_principais_05",
+  "record":[
+    {
+      "co_midia":2,
+      "nome_midia":"Texto",
+      "co_categoria":2,
+      "nome_categoria":"Literatura",
+      "total_obras":15368
+    },
+    {
+      "co_midia":2,
+      "nome_midia":"Texto",
+      "co_categoria":44,
+      "nome_categoria":"Educação",
+      "total_obras":3148
+    },
+    {
+      "co_midia":2,
+      "nome_midia":"Texto",
+      "co_categoria":20,
+      "nome_categoria":"Artes",
+      "total_obras":1772
+    },
+    {
+      "co_midia":2,
+      "nome_midia":"Texto",
+      "co_categoria":73,
+      "nome_categoria":"Economia",
+      "total_obras":1451
+    },
+    {
+      "co_midia":2,
+      "nome_midia":"Texto",
+      "co_categoria":41,
+      "nome_categoria":"História",
+      "total_obras":1238
+    },
+    {
+      "co_midia":3,
+      "nome_midia":"Som",
+      "co_categoria":6,
+      "nome_categoria":"Música Erudita",
+      "total_obras":1723
+    },
+    {
+      "co_midia":3,
+      "nome_midia":"Som",
+      "co_categoria":79,
+      "nome_categoria":"Rádio Escola",
+      "total_obras":310
+    },
+    {
+      "co_midia":3,
+      "nome_midia":"Som",
+      "co_categoria":88,
+      "nome_categoria":"Escola Brasil",
+      "total_obras":272
+    },
+    {
+      "co_midia":3,
+      "nome_midia":"Som",
+      "co_categoria":126,
+      "nome_categoria":"Tome Ciência",
+      "total_obras":144
+    },
+    {
+      "co_midia":3,
+      "nome_midia":"Som",
+      "co_categoria":18,
+      "nome_categoria":"Música Contemporânea",
+      "total_obras":24
+    },
+    {
+      "co_midia":5,
+      "nome_midia":"Imagem",
+      "co_categoria":19,
+      "nome_categoria":"Fotografia",
+      "total_obras":6803
+    },
+    {
+      "co_midia":5,
+      "nome_midia":"Imagem",
+      "co_categoria":11,
+      "nome_categoria":"Satélite",
+      "total_obras":2181
+    },
+    {
+      "co_midia":5,
+      "nome_midia":"Imagem",
+      "co_categoria":9,
+      "nome_categoria":"Mapa",
+      "total_obras":1521
+    },
+    {
+      "co_midia":5,
+      "nome_midia":"Imagem",
+      "co_categoria":56,
+      "nome_categoria":"Litografia",
+      "total_obras":1174
+    },
+    {
+      "co_midia":5,
+      "nome_midia":"Imagem",
+      "co_categoria":10,
+      "nome_categoria":"Pintura (uso educacional e não-comercial)",
+      "total_obras":143
+    },
+    {
+      "co_midia":6,
+      "nome_midia":"Video",
+      "co_categoria":112,
+      "nome_categoria":"TV Escola - Salto para o Futuro",
+      "total_obras":224
+    },
+    {
+      "co_midia":6,
+      "nome_midia":"Video",
+      "co_categoria":107,
+      "nome_categoria":"TV Escola - Língua Portuguesa",
+      "total_obras":162
+    },
+    {
+      "co_midia":6,
+      "nome_midia":"Video",
+      "co_categoria":102,
+      "nome_categoria":"TV Escola - Escola / Educação",
+      "total_obras":73
+    },
+    {
+      "co_midia":6,
+      "nome_midia":"Video",
+      "co_categoria":106,
+      "nome_categoria":"TV Escola - História",
+      "total_obras":64
+    },
+    {
+      "co_midia":6,
+      "nome_midia":"Video",
+      "co_categoria":99,
+      "nome_categoria":"TV Escola - Matemática",
+      "total_obras":32
+    }
+  ]
+}
