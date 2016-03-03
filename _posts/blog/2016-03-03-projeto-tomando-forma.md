@@ -9,7 +9,6 @@ author-link: "http://www.agnoldo.com/"
 background: "rgb(119, 40, 23)"
 published: true
 ---
-## Projeto tomando forma
 
 Depois de duas semanas de dedicação parcial (afinal tenho emprego normal e ainda queridos esposa, filhos, família e amigos), retomei o projeto em caráter de dedicação exclusiva nesta semana. Em quatro dias o progresso foi muito interessante e posso informar que o projeto se encontra no seguinte estado:
 

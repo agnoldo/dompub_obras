@@ -10,8 +10,6 @@ background: "rgb(119, 40, 23)"
 published: true
 ---
 
-## 15/01/2016 - Progresso do projeto Domínio Público
-
 O projeto Domínio Público pretende implementar aplicativos para leitura de ebooks em domínio público nas plataformas Android e Windows Phone e, desta forma, proporcionar a um grande contingente de usuários o livre acesso a cultura e conteúdo de qualidade e valor histórico.
 
 Para isto, a equipe tem trabalhado com afinco desde o meio de dezembro de 2015 na implementação de diversos componentes da solução a ser disponibilizada ao público em maio de 2016. Até o momento muito progresso foi feito:

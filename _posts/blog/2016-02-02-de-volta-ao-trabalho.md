@@ -10,8 +10,6 @@ background: "rgb(119, 40, 23)"
 published: true
 ---
 
-## 02/02/2016 - De volta ao trabalho
-
 Após 15 dias em férias com a família e quase completamente _offline_ \*, retomo hoje as atividades com o projeto Domínio Público. Nestes primeiros dias devemos trabalhar na conversão de livros de PDF para EPUB, no desenvolvimento do _backend_ (a opção pela plataforma _Parse_ está praticamente descartada devido à [futura descontinuidade do serviço](http://blog.parse.com/announcements/moving-on/)) e na melhoria da interface do app móvel.
 
 * Isto não estava no _script_, até levei o ultrabook mas não deu para fazer quase nada!

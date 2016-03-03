@@ -9,7 +9,6 @@ author-link: "http://www.agnoldo.com/"
 background: "rgb(119, 40, 23)"
 published: true
 ---
-## Uma semana bastante produtiva
 
 Retornei as atividades com o projeto na semana passada, dia 2. Hoje, dia 8, posso informar que o projeto se encontra no seguinte estado:
 
