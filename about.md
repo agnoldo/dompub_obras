@@ -4,7 +4,7 @@ title: "Sobre"
 caption: "O Projeto"
 subtitle: "Por leitores, para leitores."
 icon: "user"
-background: "#60D317"
+background: "#D46A6A"
 permalink: "/about/"
 navigation: "visible"
 ---
