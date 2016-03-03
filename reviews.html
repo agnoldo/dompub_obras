@@ -8,13 +8,30 @@ background: "#F15823"
 permalink: /reviews/
 navigation: visible
 ---
+    <div class="meetups">
       <h2>Resenhas</h2>
-      <div class="review">
+      <div class="blog">
         {% for review in site.categories.review %}
           <a class="post-link white-box" href="{{ review.url | prepend: site.baseurl }}">
             <div class="preview" style="background:{{ review.background }}">
               <div class="date">
-                  <small>{{ review.date | date: "%B" }}</small>
+                  <small>
+                    {% assign m = review.date | date: "%-m" %}
+                    {% case m %}
+                      {% when '1' %}Janeiro
+                      {% when '2' %}Fevereiro
+                      {% when '3' %}Mar&ccedil;o
+                      {% when '4' %}Abril
+                      {% when '5' %}Maio
+                      {% when '6' %}Junho
+                      {% when '7' %}Julho
+                      {% when '8' %}Agosto
+                      {% when '9' %}Setembro
+                      {% when '10' %}Outubro
+                      {% when '11' %}Novembro
+                      {% when '12' %}Dezembro
+                    {% endcase %}
+                  </small>
                   {{ review.date | date: "%-d" }}
               </div>
             </div>
@@ -24,4 +41,6 @@ navigation: visible
           <br>
         {% endfor %}
       </div>
-      <p>For the debugging purposes, this site was last built at {{ site.time | date: '%s' }} UNIX time.</p>
+    </div>
+
+    <p>Quer publicar uma resenha de livro no nosso site? Por favor mande email para [dominiopublico.xyz@gmail.com](mailto:dominiopublico.xyz@gmail.com).</p>
