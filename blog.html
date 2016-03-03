@@ -8,6 +8,7 @@ background: "rgb(119, 40, 23)"
 permalink: /blog/
 navigation: visible
 ---
+    <div class="meetups">
       <h2>Notícias</h2>
       <div class="blog">
         {% for post in site.categories.blog %}
@@ -40,5 +41,6 @@ navigation: visible
           <br>
         {% endfor %}
       </div>
+    </div>
 
-      <p>Este site foi atualizado em {{ site.time | date: '%s' }} (horário UNIX).</p>
+    <p>Este site foi atualizado em {{ site.time | date: '%-d-m-y' }} (horário UNIX).</p>
