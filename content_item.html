@@ -1,0 +1,52 @@
+---
+layout: blog
+title: Obra
+subtitle: Texto, Imagem, Som ou Vídeo
+caption: Livros, etc.
+icon: book
+background: "#550000"
+permalink: /content/item.html
+---
+<div id="div_obra_conteudo" class="col-30">
+</div>
+<div id="div_obra_descricao" class="col-70">
+</div>
+
+<script>
+
+(function($) {
+    $.QueryString = (function(a) {
+        if (a == "") return {};
+        var b = {};
+        for (var i = 0; i < a.length; ++i)
+        {
+            var p=a[i].split('=');
+            if (p.length != 2) continue;
+            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+        }
+        return b;
+    })(window.location.search.substr(1).split('&'))
+})(jQuery);
+
+var id = parseInt($.QueryString["id"]);
+var url_json = "/json/" + (1000 * Math.floor(id/1000)) + "/obdp" + id + ".json";
+console.log(url_json);
+$.getJSON( url_json, function( data ) {
+  $("header.post-header h1").text(data.titulo);
+  $("header.post-header p.lead").text(data.nome_autor);
+
+  var autor_idioma = data.nome_autor + (data.nome_idioma ? "<br>[" + data.nome_idioma + "]" : "");
+  var a_url_autor_a = "<a href='/content/author.html?id=" + data.co_autor.substr(4) + "'>" + autor_idioma + "</a";
+  var url_obra = "https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/" + data.co_obra + ".epub";
+
+  $( "<div/>", {
+    "style": "width: 100%",
+    "html": "<object style='width:100%' data='https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/" + data.co_obra + ".png' type='image/png'><img style='width:100%' data-src='holder.js/150x200?text=Capa%20não%20\nencontrada'></object>"
+  }).appendTo( "#div_obra_conteudo" );
+
+  $( "<div/>", {
+    "html": "<h2>" + data.titulo + "</h2><br><h4>" + a_url_autor_a + "</h4><br><br><div style='width:100%;'><a class='button button--sm' href='#'><i class='icon-book'></i> Ler</a>&nbsp;<a class='button button--sm' href='" + url_obra + "'><i class='icon-hdd'></i> Baixar</a></div>"
+  }).appendTo( "#div_obra_descricao" );
+
+});
+</script>
