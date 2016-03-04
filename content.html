@@ -8,41 +8,36 @@ background: "#550000"
 permalink: /content/
 navigation: visible
 ---
-<div id="col_textos" class="col-25 white-box">
+<div id="div_midia_2" class="col-25 white-box">
   <h2>Textos</h2>
-  <a class="button button--sm">Todas as categorias »</a>
 </div>
-<div id="col_sons" class="col-25 white-box">
+<div id="div_midia_3" class="col-25 white-box">
   <h2>Sons</h2>
-  <table class="col-80" style="margin: 0 auto; border-top: 10px; border-bottom: 10px;">
-    <tr>
-      <td class="col-66"><a href="#">Literatura</a></td>
-      <td class="col-33"><a href="#">15368</a></td>
-    </tr>
-    <tr>
-      <td class="col-66"><a href="#">Arte</a></td>
-      <td class="col-33"><a href="#">3849</a></td>
-    </tr>
-    <tr>
-      <td class="col-66"><a href="#">Medicina</a></td>
-      <td class="col-33"><a href="#">1498</a></td>
-    </tr>
-    <tr>
-      <td class="col-66"><a href="#">Física</a></td>
-      <td class="col-33"><a href="#">1292</a></td>
-    </tr>
-    <tr>
-      <td class="col-66"><a href="#">História</a></td>
-      <td class="col-33"><a href="#">1102</a></td>
-    </tr>
-  </table>
-  <a class="button button--sm">Todas as categorias »</a>
 </div>
-<div id="col_imagens" class="col-25 white-box">
+<div id="div_midia_5" class="col-25 white-box">
   <h2>Imagens</h2>
-  <a class="button button--sm">Todas as categorias »</a>
 </div>
-<div id="col_videos" class="col-25 white-box">
+<div id="div_midia_6" class="col-25 white-box">
   <h2>Vídeos</h2>
-  <a class="button button--sm">Todas as categorias »</a>
 </div>
+
+<script>
+$.getJSON( "/json/midia_categorias_principais_05.json", function( data ) {
+  var items = {2: [], 3: [], 5: [], 6: []};
+  $.each( data.record, function( key, val ) {
+    items[val.co_midia].push("<tr><td class='col-66'><a href='#'>" + val.nome_categoria + "</a></td><td class='col-33'><a href='#'>" + val.total_obras + "</a></td></tr>");
+  });
+  $.each( items, function( key, val) {
+    $( "<table/>", {
+      "class": "col-80",
+      "style": "margin: 0 auto; width: 100%;",
+      html: val.join( "" )
+    }).appendTo( "#div_midia_" + key );
+    $( "<a/>", {
+      "class": "button button--sm",
+      "href": "#",
+      html: "Todas as categorias »"
+    }).appendTo( "#div_midia_" + key );
+  });
+});
+</script>
