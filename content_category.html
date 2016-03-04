@@ -1,0 +1,87 @@
+---
+layout: page
+title: Biblioteca
+caption: Livros, etc.
+subtitle: Navegue por categorias, procure por obras de seu interesse
+icon: book
+background: "#550000"
+permalink: /content/category.html
+navigation: visible
+---
+<div id="div_obras_1" class="col-20">
+</div>
+<div id="div_obras_2" class="col-20">
+</div>
+<div id="div_obras_3" class="col-20">
+</div>
+<div id="div_obras_4" class="col-20">
+</div>
+<div id="div_obras_5" class="col-20">
+</div>
+<div id="div_rodape" class="col-100" style="text-align:center">
+</div>
+
+<script>
+
+(function($) {
+    $.QueryString = (function(a) {
+        if (a == "") return {};
+        var b = {};
+        for (var i = 0; i < a.length; ++i)
+        {
+            var p=a[i].split('=');
+            if (p.length != 2) continue;
+            b[p[0]] = decodeURIComponent(p[1].replace(/\+/g, " "));
+        }
+        return b;
+    })(window.location.search.substr(1).split('&'))
+})(jQuery);
+
+var cat = parseInt($.QueryString["cat"]);
+var pg = parseInt($.QueryString["pg"]);
+
+$.getJSON( "/json/catpag/cadp" + cat + "_p" + pg + ".json", function( data ) {
+  console.log(data);
+  var items = {1: [], 2: [], 3: [], 4: [], 5: []};
+  var cont = 0;
+  $.each( data.record, function( key, val ) {
+    var a_url = "<a href='/content/item.html?id=" + val.co_obra + "'>";
+    var autor_idioma = val.nome_autor + (val.nome_idioma ? "<br>[" + val.nome_idioma + "]" : "");
+    items[(cont % 5) + 1].push("<div class='col-100 white-box'>" + a_url + "<img src='https://www.googledrive.com/host/0B-Tq6k4CD6ndeEJqTzM3bzBIV28/" + val.co_obra + ".png'></a><br>" +
+      a_url + val.titulo + "</a><br><small>" + a_url + autor_idioma + "</a></small>");
+    cont++;
+  });
+  $.each( items, function( key, val) {
+    $.each( val, function( key2, item) {
+      $( "<div/>", {
+        "class": "col-100 white-box",
+        html: item
+      }).appendTo( "#div_obras_" + key );
+    });
+  });
+
+  if (data.total_paginas > 1) {
+    var ini = (pg > 2 ? pg - 2 : 1);
+    var fim = Math.min(pg + 5, data.total_paginas);
+    var items = [];
+    items.push("<li><a href='/content/category.html?cat=" + cat + "&pg=1'>«</a></li>");
+    for (i = ini; i <= fim; i++) {
+      items.push("<li><a " + (i == pg ? "class='active'" : "") + " href='/content/category.html?cat=" + cat + "&pg=" + i + "'>" + i + "</a></li>");
+    }
+    items.push("<li><a href='/content/category.html?cat=" + cat + "&pg=" + data.total_paginas + "'>»</a></li>");
+  }
+
+  $( "<ul/>", {
+    "class": "pagination",
+    html: items.join("")
+  }).appendTo( "#div_rodape" );
+
+  $( "<br>").appendTo( "#div_rodape" );
+
+  $( "<span/>", {
+    "style": "text-align: center",
+    html: "Total de obras: " + data.total_obras
+  }).appendTo( "#div_rodape" );
+
+});
+</script>

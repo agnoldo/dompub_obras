@@ -25,7 +25,7 @@ navigation: visible
 $.getJSON( "/json/midia_categorias_principais_05.json", function( data ) {
   var items = {2: [], 3: [], 5: [], 6: []};
   $.each( data.record, function( key, val ) {
-    items[val.co_midia].push("<tr><td class='col-66'><a href='#'>" + val.nome_categoria + "</a></td><td class='col-33'><a href='#'>" + val.total_obras + "</a></td></tr>");
+    items[val.co_midia].push("<tr><td class='col-66'><a href='/content/category.html?cat=" + val.co_categoria + "&pg=1'>" + val.nome_categoria + "</a></td><td class='col-33'><a href='/content/category.html?cat=" + val.co_categoria + "&pg=1'>" + val.total_obras + "</a></td></tr>");
   });
   $.each( items, function( key, val) {
     $( "<table/>", {
