@@ -41,7 +41,7 @@ var pg = parseInt($.QueryString["pg"]);
 
 $.getJSON( "/json/catpag/cadp" + cat + "_p" + pg + ".json", function( data ) {
   $("header.post-header h1").text(data.nome);
-  $("header.post-header p.lead").text("Obras: " + data.total_obras + " - " + "Páginas: " + data.total_paginas);
+  $("header.post-header p.lead").text("Página: " +  pg + " de " + data.total_paginas + " - " + "Obras: " + data.total_obras);
 
   var items = {1: [], 2: [], 3: [], 4: [], 5: []};
   var cont = 0;
