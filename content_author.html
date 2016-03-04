@@ -37,8 +37,9 @@ permalink: /content/author.html
 })(jQuery);
 
 var id = parseInt($.QueryString["id"]);
-
-$.getJSON( "/json/" + (1000 * Math.floor(id/1000)) + "/audp" + id + ".json", function( data ) {
+var url_json = "/json/" + (1000 * Math.floor(id/1000)) + "/audp" + id + ".json";
+console.log(url_json);
+$.getJSON( url_json, function( data ) {
   $("header.post-header h1").text("Obras de " + data.nome);
   $("header.post-header p.lead").text("Total de Obras: " + data.total_obras);
 
