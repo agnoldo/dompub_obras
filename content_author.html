@@ -1,11 +1,11 @@
 ---
 layout: blog
-title: Categoria
-subtitle: Obras desta Categoria
+title: Autor
+subtitle: Obras deste Autor
 caption: Livros, etc.
 icon: book
 background: "#550000"
-permalink: /content/category.html
+permalink: /content/author.html
 ---
 <div id="div_obras_1" class="col-20">
 </div>
@@ -36,12 +36,11 @@ permalink: /content/category.html
     })(window.location.search.substr(1).split('&'))
 })(jQuery);
 
-var cat = parseInt($.QueryString["cat"]);
-var pg = parseInt($.QueryString["pg"]);
+var id = parseInt($.QueryString["id"]);
 
-$.getJSON( "/json/catpag/cadp" + cat + "_p" + pg + ".json", function( data ) {
-  $("header.post-header h1").text(data.nome);
-  $("header.post-header p.lead").text("Página: " +  pg + " de " + data.total_paginas + " - " + "Obras: " + data.total_obras);
+$.getJSON( "/json/" + (1000 * Math.floor(id/1000)) + "/audp" + id + ".json", function( data ) {
+  $("header.post-header h1").text("Obras de " + data.nome);
+  $("header.post-header p.lead").text("Total de Obras: " + data.total_obras);
 
   var items = {1: [], 2: [], 3: [], 4: [], 5: []};
   var cont = 0;
@@ -64,26 +63,6 @@ $.getJSON( "/json/catpag/cadp" + cat + "_p" + pg + ".json", function( data ) {
       }).appendTo( "#div_obras_" + key );
     });
   });
-
-  if (data.total_paginas > 1) {
-    var ini = (pg > 2 ? pg - 2 : 1);
-    var fim = Math.min(pg + 5, data.total_paginas);
-    var items = [];
-    items.push("<li><a href='/content/category.html?cat=" + cat + "&pg=1'>«</a></li>");
-    for (i = ini; i <= fim; i++) {
-      items.push("<li><a " + (i == pg ? "class='active'" : "") + " href='/content/category.html?cat=" + cat + "&pg=" + i + "'>" + i + "</a></li>");
-    }
-    items.push("<li><a href='/content/category.html?cat=" + cat + "&pg=" + data.total_paginas + "'>»</a></li>");
-  }
-
-  $( "<br>").appendTo( "#div_rodape" );
-
-  $( "<ul/>", {
-    "class": "pagination",
-    html: items.join("")
-  }).appendTo( "#div_rodape" );
-
-  $( "<br>").appendTo( "#div_rodape" );
 
   $( "<span/>", {
     "style": "text-align: center",
