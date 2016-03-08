@@ -39,13 +39,6 @@
     {
       "co_midia":3,
       "nome_midia":"Som",
-      "co_categoria":6,
-      "nome_categoria":"Música Erudita",
-      "total_obras":1723
-    },
-    {
-      "co_midia":3,
-      "nome_midia":"Som",
       "co_categoria":79,
       "nome_categoria":"Rádio Escola",
       "total_obras":310
@@ -55,7 +48,7 @@
       "nome_midia":"Som",
       "co_categoria":88,
       "nome_categoria":"Escola Brasil",
-      "total_obras":272
+      "total_obras":270
     },
     {
       "co_midia":3,
@@ -72,11 +65,18 @@
       "total_obras":24
     },
     {
+      "co_midia":3,
+      "nome_midia":"Som",
+      "co_categoria":6,
+      "nome_categoria":"Música Erudita",
+      "total_obras":18
+    },
+    {
       "co_midia":5,
       "nome_midia":"Imagem",
       "co_categoria":19,
       "nome_categoria":"Fotografia",
-      "total_obras":6803
+      "total_obras":6801
     },
     {
       "co_midia":5,
@@ -109,23 +109,23 @@
     {
       "co_midia":6,
       "nome_midia":"Video",
-      "co_categoria":112,
-      "nome_categoria":"TV Escola - Salto para o Futuro",
-      "total_obras":224
+      "co_categoria":107,
+      "nome_categoria":"TV Escola - Língua Portuguesa",
+      "total_obras":158
     },
     {
       "co_midia":6,
       "nome_midia":"Video",
-      "co_categoria":107,
-      "nome_categoria":"TV Escola - Língua Portuguesa",
-      "total_obras":162
+      "co_categoria":112,
+      "nome_categoria":"TV Escola - Salto para o Futuro",
+      "total_obras":88
     },
     {
       "co_midia":6,
       "nome_midia":"Video",
       "co_categoria":102,
       "nome_categoria":"TV Escola - Escola / Educação",
-      "total_obras":73
+      "total_obras":65
     },
     {
       "co_midia":6,
@@ -137,8 +137,8 @@
     {
       "co_midia":6,
       "nome_midia":"Video",
-      "co_categoria":99,
-      "nome_categoria":"TV Escola - Matemática",
+      "co_categoria":101,
+      "nome_categoria":"TV Escola - Educação Física",
       "total_obras":32
     }
   ]
